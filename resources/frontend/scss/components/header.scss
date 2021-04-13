@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: $black;
+    margin: 28px 55px 0;
+
+    &__logo {
+        color: $green;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 40px;
+        transition: 0.3s;
+
+        &:hover {
+            color: $black;
+        }
+    }
+
+    &__menu {
+        display: flex;
+
+        &-item {
+            margin-right: 40px;
+            transition: 0.3s;
+
+            &:hover {
+                color: $green;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+        &-item {
+            margin-left: 20px;
+            position: relative;
+            transition: 0.3s;
+
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+}

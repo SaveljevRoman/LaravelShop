@@ -1,0 +1,33 @@
+.search {
+
+    &:hover:before {
+        border: 1px solid $green;
+    }
+
+    &:hover:after {
+        border-left: 1px solid $green;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        border: 1px solid $black;
+        border-radius: 50%;
+        width: 9px;
+        height: 9px;
+        top: 6px;
+        left: -21px;
+        transition: 0.3s;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        height: 7px;
+        border-left: 1px solid $black;
+        transform: rotate(135deg);
+        top: 14px;
+        left: -10px;
+        transition: 0.3s;
+    }
+}
