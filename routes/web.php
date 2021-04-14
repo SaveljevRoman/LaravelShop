@@ -13,5 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@show');
+Route::prefix('/')->namespace('Frontend')->group(function () {
+    Route::name('pages.')->group(function () {
+        Route::get('/', 'PageController@showHome')->name('home');
+    });
+});
+
 

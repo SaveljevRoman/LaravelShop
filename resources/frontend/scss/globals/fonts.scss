@@ -9,6 +9,15 @@
 
 @font-face {
     font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+
+    src: url("../../fonts/Poppins-Italic.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
 
