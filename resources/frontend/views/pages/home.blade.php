@@ -13,7 +13,7 @@
         </div>
         <div class="content__products">
             <div class="content__products-title">
-                our <span>products</span>
+                Рекомендуемые <span>товары</span>
             </div>
             <div class="content__products-cards">
                 <div class="content__products-card card">
@@ -23,7 +23,10 @@
                     <div class="card__title">Arvum</div>
                     <div class="card__description">Gran Reserva Vinegar, 200ml</div>
                     <div class="card__price">31,51 €</div>
-                    <div class="card__button button">Add to cart</div>
+                    <div class="card__buttons">
+                        <div class="card__buttons-button button">Подробнее</div>
+                        <div class="card__buttons-button button button__green">Добавить в корзину</div>
+                    </div>
                 </div>
 
                 <div class="content__products-card card">
@@ -33,7 +36,10 @@
                     <div class="card__title">Arvum</div>
                     <div class="card__description">Gran Reserva Vinegar, 200ml</div>
                     <div class="card__price">31,51 €</div>
-                    <div class="card__button button">Add to cart</div>
+                    <div class="card__buttons">
+                        <div class="card__buttons-button button">Подробнее</div>
+                        <div class="card__buttons-button button button__green">Добавить в корзину</div>
+                    </div>
                 </div>
 
                 <div class="content__products-card card">
@@ -43,7 +49,10 @@
                     <div class="card__title">Arvum</div>
                     <div class="card__description">Gran Reserva Vinegar, 200ml</div>
                     <div class="card__price">31,51 €</div>
-                    <div class="card__button button">Add to cart</div>
+                    <div class="card__buttons">
+                        <div class="card__buttons-button button">Подробнее</div>
+                        <div class="card__buttons-button button button__green">Добавить в корзину</div>
+                    </div>
                 </div>
 
                 <div class="content__products-card card">
@@ -53,7 +62,10 @@
                     <div class="card__title">Arvum</div>
                     <div class="card__description">Gran Reserva Vinegar, 200ml</div>
                     <div class="card__price">31,51 €</div>
-                    <div class="card__button button">Add to cart</div>
+                    <div class="card__buttons">
+                        <div class="card__buttons-button button">Подробнее</div>
+                        <div class="card__buttons-button button button__green">Добавить в корзину</div>
+                    </div>
                 </div>
             </div>
             <div class="content__products-button button button__green">Shop all products</div>

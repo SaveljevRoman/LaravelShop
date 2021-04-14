@@ -10,4 +10,14 @@ class PageController extends BaseController
     {
         return view('frontend::pages.home');
     }
+
+    public function showProducts()
+    {
+        return view('frontend::pages.products');
+    }
+
+    public function showCategories()
+    {
+        return view('frontend::pages.categories');
+    }
 }

@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('/')->namespace('Frontend')->group(function () {
     Route::name('pages.')->group(function () {
         Route::get('/', 'PageController@showHome')->name('home');
+        Route::get('/products', 'PageController@showProducts')->name('products');
+        Route::get('/categories', 'PageController@showCategories')->name('categories');
     });
 });
 

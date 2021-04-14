@@ -1,0 +1,26 @@
+.products__title {
+    margin: 100px 0 60px;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: bold;
+
+    &-green {
+        color: $green;
+    }
+}
+
+.products__cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-card {
+        max-width: 30%;
+        margin: 19px;
+
+        & .button {
+            font-size: 16px;
+            padding: 11px 15px;
+        }
+    }
+}
+

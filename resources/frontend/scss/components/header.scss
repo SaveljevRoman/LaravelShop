@@ -12,11 +12,11 @@
         font-size: 30px;
         font-weight: bold;
         margin-right: 40px;
-        transition: 0.3s;
 
-        &:hover {
-            color: $black;
+        &:last-child {
+            margin-right: 0;
         }
+
     }
 
     &__menu {
@@ -50,5 +50,10 @@
                 color: $green;
             }
         }
+    }
+
+    &__active {
+        color: $green;
+        font-weight: bold;
     }
 }
