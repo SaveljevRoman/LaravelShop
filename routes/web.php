@@ -18,6 +18,7 @@ Route::prefix('/')->namespace('Frontend')->group(function () {
         Route::get('/', 'PageController@showHome')->name('home');
         Route::get('/products', 'PageController@showProducts')->name('products');
         Route::get('/categories', 'PageController@showCategories')->name('categories');
+        Route::get('/{category}/{product}', 'PageController@showProduct')->name('product');
     });
 });
 

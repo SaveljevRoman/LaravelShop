@@ -20,4 +20,9 @@ class PageController extends BaseController
     {
         return view('frontend::pages.categories');
     }
+
+    public function showProduct($category, $product)
+    {
+        return view('frontend::pages.product', compact('category', 'product'));
+    }
 }
