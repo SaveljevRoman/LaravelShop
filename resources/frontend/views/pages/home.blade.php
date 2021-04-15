@@ -68,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content__products-button button button__green">Shop all products</div>
+            <div class="content__products-button button button__green button__array">Все товары</div>
         </div>
     </div>
 

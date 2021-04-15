@@ -1,0 +1,35 @@
+.categories {
+
+    &__category {
+        margin: 30px auto 70px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $gray;
+        text-align: center;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        &-img {
+            margin: 0 auto 30px;
+            max-width: 200px;
+        }
+
+        &-title a {
+            font-size: 36px;
+            line-height: 54px;
+            color: $green;
+            transition: 0.3s;
+
+            &:hover {
+                color: $darkGreen;
+                text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        &-description {
+            margin-top: 10px;
+            color: $gray;
+        }
+    }
+}
