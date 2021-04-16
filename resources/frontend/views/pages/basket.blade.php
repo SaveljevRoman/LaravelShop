@@ -65,13 +65,10 @@
                 <div class="basket__order-price">
                     Итого: 2 товара на 134764 ₽
                 </div>
-                <div class="basket__order-button button button__green">Заказать</div>
+                <div class="basket__order-button button button__green">Оформить заказ</div>
             </div>
         </div>
 
-
     </div>
-
-
 
 @endsection
