@@ -19,6 +19,8 @@ Route::prefix('/')->namespace('Frontend')->group(function () {
         Route::get('/products', 'PageController@showProducts')->name('products');
         Route::get('/categories', 'PageController@showCategories')->name('categories');
         Route::get('/{category}/{product}', 'PageController@showProduct')->name('product');
+        Route::get('/login', 'PageController@showLogin')->name('login');
+        Route::get('/basket', 'PageController@showBasket')->name('basket');
     });
 });
 

@@ -25,4 +25,14 @@ class PageController extends BaseController
     {
         return view('frontend::pages.product', compact('category', 'product'));
     }
+
+    public function showLogin()
+    {
+        return view('frontend::pages.login');
+    }
+
+    public function showBasket()
+    {
+        return view('frontend::pages.basket');
+    }
 }

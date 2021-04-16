@@ -29,7 +29,13 @@
     <div class="header__right">
         <div class="header__right-item"><span class="search">Поиск</span></div>
         <div class="header__right-item"><span class="delimiter"></span></div>
-        <div class="header__right-item">Корзина</div>
+        <div class="header__right-item">
+            @if(request()->route()->getName() !== 'pages.basket')
+                <a href="{{ routing('pages.basket') }}">Корзина</a>
+            @else
+                <span class="header__active">Корзина</span>
+            @endif
+        </div>
         <div class="header__right-item button">Войти</div>
     </div>
 
