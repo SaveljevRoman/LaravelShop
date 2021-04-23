@@ -14,8 +14,6 @@
 
         @include('frontend::layout.header')
 
-        @include('frontend::pages.auth')
-
         @yield('content')
 
         @include('frontend::layout.footer')

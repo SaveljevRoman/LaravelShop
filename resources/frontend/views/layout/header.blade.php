@@ -36,7 +36,9 @@
                 <span class="header__active">Корзина</span>
             @endif
         </div>
-        <div class="header__right-item button">Войти</div>
+        <div class="header__right-item">
+            <button class="button popup-open">Войти</button>
+        </div>
     </div>
 
 </div>
