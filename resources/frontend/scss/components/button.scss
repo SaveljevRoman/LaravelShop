@@ -12,17 +12,18 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
 
-     &__green {
-         text-align: left;
-         margin-left: 26px;
-         color: $white;
-         border: 1px solid $green;
-         background-color: $green;
+    &__green {
+        text-align: left;
+        margin-left: 26px;
+        color: $white;
+        border: 1px solid $green;
+        background-color: $green;
 
-         &:hover {
-             box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-         }
-     }
+        &:hover {
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+    }
 
     &__array {
         position: relative;
@@ -46,6 +47,27 @@
             width: 8px;
             left: 135px;
             top: 20.5px;
+        }
+    }
+
+    &__double {
+        display: flex;
+        flex-direction: row;
+
+        &-left {
+            margin-right: 15px;
+            flex: 1;
+        }
+
+        &-right {
+            flex: 1;
+            margin: auto;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            }
         }
     }
 }

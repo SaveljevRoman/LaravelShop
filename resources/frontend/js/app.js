@@ -1,2 +1,2 @@
 window.$ = require('jquery');
-// require('./components/popup');
+require('./components/popup');

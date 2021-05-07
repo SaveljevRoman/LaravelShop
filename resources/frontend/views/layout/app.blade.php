@@ -10,15 +10,17 @@
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
 
-        @include('frontend::layout.header')
+    @include('frontend::pages.login')
 
-        @yield('content')
+    @include('frontend::layout.header')
 
-        @include('frontend::layout.footer')
+    @yield('content')
 
-    </div>
+    @include('frontend::layout.footer')
+
+</div>
 
 </body>
 </html>

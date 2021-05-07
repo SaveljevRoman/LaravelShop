@@ -1,11 +1,6 @@
-@extends('frontend::layout.app')
-
-@section('title', 'Home')
-
-@section('content')
-
 <div class="auth">
     <div class="auth__wrap">
+        <div class="auth__wrap-cross"></div>
         <div class="auth__wrap-title">Вход</div>
         <form class="auth__wrap-form" action="" method="POST">
             <div class="input__field">
@@ -14,11 +9,10 @@
             <div class="input__field">
                 <input class="input" type="password" placeholder="Пароль">
             </div>
-            <div>
-                <button class="button">Войти</button>
+            <div class="button__double">
+                <button class="button button__double-left">Войти</button>
+                <a class="button button__green button__double-right">Зарегистрироваться</a>
             </div>
         </form>
     </div>
 </div>
-
-@endsection
